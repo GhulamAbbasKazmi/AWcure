@@ -1,0 +1,20 @@
+.pharmacy-main {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url("../../assets/sofa.jpg");
+  background-attachment: fixed;
+}
+
+.products {
+  margin-top: 100px;
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+}

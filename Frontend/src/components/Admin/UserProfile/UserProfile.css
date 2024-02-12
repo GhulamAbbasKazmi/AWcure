@@ -1,0 +1,55 @@
+.UserProfile_main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.warningInfoContainer{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-direction: column;
+    padding: 4%;
+    background-color: #27104de3;
+    margin-top: 30px;
+    border-radius: 10px;
+  
+  }
+
+  .commentsHeading,.warningText,.warningTextWrite{
+    width: 100%;
+  }
+
+  .warningTextContainer{
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .warningReplyContainer{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap:10px;
+    flex-direction: column;
+    width: 90%;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .warningReplyTextContainer{
+    border: 1px solid whitesmoke;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }

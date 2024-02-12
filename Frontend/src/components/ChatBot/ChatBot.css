@@ -1,0 +1,29 @@
+#botAvatarImage{
+  width: 60px !important;
+  height: 60px !important;
+  padding: 5px;
+  object-fit: cover;
+  border-radius: 10%;
+  background-color: rgba(0, 2, 45, 0.772);
+}
+
+/* width */
+.chat-body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .chat-body::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .chat-body::-webkit-scrollbar-thumb {
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 100px;
+  }
+  
+  /* Handle on hover */
+  .chat-body::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

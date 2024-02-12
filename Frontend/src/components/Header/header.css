@@ -1,0 +1,71 @@
+.topBar {
+  width: 100%;
+  font-size: larger;
+  color: black;
+  background-color: yellow;
+  text-align: center;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+
+.login-status-container {
+  width: 60%;
+}
+
+.nav-container {
+  width: 40%;
+}
+
+.cartIcon {
+  width: 37px;
+  height: 36px;
+}
+
+.cartText {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-left: -2px;
+
+}
+
+.header-btns {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 992px) {
+  .login-status-container {
+    width: 100%;
+  }
+
+  .nav-container {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-login-status {
+    display: none;
+  }
+
+  .header-btns {
+    flex-direction: column;
+  }
+}

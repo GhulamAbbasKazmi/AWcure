@@ -1,0 +1,76 @@
+.Blog-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url("../../assets/sofa.jpg");
+  background-attachment: fixed;
+}
+
+.Blog-content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background-color: rgba(245, 245, 245, 0);
+  width: 80%;
+}
+.blog-item {
+  flex: 3;
+  padding: 1rem;
+  text-align: justify;
+}
+
+.blog-post-card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.blog-post-text-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  width: 60% ;
+  height: 90%;
+  padding: 4%;
+  background-color: #27104dac;
+}
+
+.blog-post-text-container:hover {
+  border: 2px solid white;
+  background-color: #27104de3;
+}
+
+.BlogBtnContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+@media only screen and (max-width: 996px) {
+  .Blog-content{
+    width: 100%;
+  }
+  .blog-post-card {
+    flex-direction: column;
+  }
+  .blog-post-text-container {
+    width: 100%;
+  }
+  .BlogBtnContainer{
+    width: 100%;
+  }
+}
+
+
+@media only screen and (max-width: 400px) {
+  .BlogBtnContainer{
+    flex-direction: column;
+  }
+}
+

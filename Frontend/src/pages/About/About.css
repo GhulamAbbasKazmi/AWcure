@@ -1,0 +1,67 @@
+.About-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.about-male-chat-illustration {
+  width: 100%;
+}
+
+.about-chat-bubble {
+  width: 20%;
+}
+
+@media screen and (max-width: 545px) {
+  .last-sec-profile {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 834px) {
+  .About-main {
+    width: 95%;
+  }
+}
+
+.aboutForm {
+  width: 70%;
+  border: 1px solid #3b71ca;
+  padding: 1rem;
+  background-color: rgb(241, 224, 224);
+  border-radius: 3rem;
+}
+
+.aboutForm-dark {
+  width: 70%;
+  border: 1px solid #3b71ca;
+  padding: 3rem;
+  background-color: #272a37;
+  border-radius: 3rem;
+}
+
+@media screen and (min-width: 601px) {
+  .aboutForm,
+  .aboutForm-dark {
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .aboutForm,
+  .aboutForm-dark {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 295px) {
+  .aboutForm,
+  .aboutForm-dark {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}

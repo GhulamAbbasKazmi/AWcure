@@ -1,0 +1,233 @@
+.Login-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.loginForm {
+  width: 50%;
+  border: 1px solid #3b71ca;
+  padding: 1rem;
+  background-color: rgb(241, 224, 224);
+  border-radius: 3rem;
+}
+
+.loginForm-dark {
+  width: 50%;
+  border: 1px solid #3b71ca;
+  padding: 3rem;
+  background-color: #272a37;
+  border-radius: 3rem;
+}
+
+.login-form-input {
+  background-color: #323644;
+}
+.logo-image-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Login-logo {
+  width: 28%;
+  margin-bottom: -48%;
+  z-index: 2;
+  border-radius: 20%;
+}
+
+.Login-logo-form-container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.Login-logo-form {
+  width: 10vw;
+  align-self: flex-end;
+  margin-top: 3%;
+  margin-right: 3%;
+}
+
+.Login-title {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 3vw;
+  color: #ffffff;
+}
+
+.Login-form-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  height: 70%;
+}
+
+.Login-form-fields {
+  height: 50%;
+  width: 80%;
+}
+
+.Login-form-field-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 8vw;
+  margin-top: 4%;
+}
+
+.Login-form-field-text-message {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+}
+
+.Login-form-field-error-meesage {
+  margin-left: 5%;
+  color: red;
+}
+
+.Login-form-field-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #4d5959;
+}
+
+.Login-form-input-field-container {
+  background: #eff0f2;
+
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.Login-form-input-field {
+  margin-left: 3%;
+  background: #eff0f2;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  border: none;
+  width: 100%;
+}
+
+.Login-form-input-field:focus {
+  outline: none;
+}
+
+.Login-form-buttons {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.Login-form-register-button {
+  color: #fff;
+  width: 40%;
+  height: 4rem;
+  background-color: #007074;
+  border-color: #007074;
+
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+}
+
+.Login-form-register-button:hover {
+  background-color: #fff;
+  color: #007074;
+  border-color: #007074;
+}
+
+.Login-form-login-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Login-form-login-button-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+
+  font-size: 32px;
+}
+
+.Login-form-login-button {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  color: #007074;
+  cursor: pointer;
+  font-size: 32px;
+}
+
+.Login-form-google-button-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  border: 1.4px solid #d2d2d2;
+  cursor: pointer;
+  width: 40%;
+}
+
+.Login-form-login-button-text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  color: #043133;
+}
+
+.Login-form-login-button-image {
+  width: 50px;
+  height: 50px;
+}
+
+.email-container {
+  border: 2px solid #00e4e3;
+}
+
+@media screen and (min-width: 601px) {
+  .loginForm,
+  .loginForm-dark {
+    width: 500px;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .forget-remember-btns {
+    flex-direction: column;
+  }
+
+  .loginForm,
+  .loginForm-dark {
+    width: 95%;
+  }
+}
+@media screen and (max-width: 295px) {
+  .loginForm,
+  .loginForm-dark {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+}

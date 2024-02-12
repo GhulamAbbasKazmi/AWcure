@@ -1,0 +1,24 @@
+.Error-Page-Main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  flex-direction: column;
+}
+.error-image {
+  /* width: 70vh; */
+  height: 70vh;
+  border-radius: 20px;
+  border: 1px solid #3b71ca;
+}
+
+@media screen and (max-width: 480px) {
+  .error-image {
+    width: 90vw;
+    height: auto;
+  }
+}

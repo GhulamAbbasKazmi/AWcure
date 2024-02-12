@@ -1,0 +1,36 @@
+.checkout-main {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    background-image: url("../../assets/sofa.jpg");
+    background-attachment: fixed;
+  }
+
+  .mainContainerCheckout{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center ;
+    gap:20px;
+    width: 90%;
+    margin-bottom:4%;
+  }
+
+  .mainPanelCheckout{
+    width: 70%;
+    background: rgba(255, 255, 255, 0.909);
+    padding: 2%;
+  }
+
+  .sidePanelCheckout{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    background:  rgba(255, 255, 255, 0.909);;
+    padding: 2%;
+  }

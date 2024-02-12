@@ -1,0 +1,17 @@
+.cardsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.table{
+    overflow: hidden;
+    width: 100%;
+}
+
+.card_User{
+    width: 90%;
+    padding: 4%;
+    margin: 4%;
+}

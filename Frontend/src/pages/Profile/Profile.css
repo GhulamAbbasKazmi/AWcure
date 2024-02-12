@@ -1,0 +1,234 @@
+.Profile-main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  background-image: url("../../assets/patient-sitting.jpg");
+  background-attachment: fixed;
+}
+.ProfileForm {
+  width: 100%;
+  border: 1px solid #3b71ca;
+  padding: 3rem;
+  background-color: rgba(241, 224, 224, 0.881);
+  border-radius: 3rem;
+}
+
+.ProfileForm-dark {
+  width: 100%;
+  border: 1px solid #3b71ca;
+  padding: 3rem;
+  background-color: #272a37;
+  border-radius: 3rem;
+}
+
+.searchIcon {
+  height: 2.3rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  width: 2rem;
+  cursor: pointer;
+}
+
+.file-box {
+  border: 2px solid #ced4da;
+  padding: 1rem;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.file-box:hover {
+  border: 2px solid #3b71ca;
+}
+
+.selectedFileBox {
+  border: 2px solid green;
+}
+
+.selectedFile {
+  align-self: flex-end;
+  border: 2px solid green;
+  border-radius: 50%;
+  height: 25px;
+  width: 25px;
+  padding: 5px;
+}
+
+.profile-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.complaint_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  width: 100%;
+  padding: 4%;
+  background-color: #288c99b8;
+
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 160%;
+  border: 2px solid white;
+}
+
+/* -------------------------- */
+
+.userReviewRatingDropDown {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 60px;
+  border: solid 1px #000;
+  background-color: #fff;
+  cursor: pointer;
+  width: 365px;
+}
+
+.userReviewRatingDropDownText {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 1.5;
+  color: #00696a;
+}
+.userReviewRatingDropDownText.selected{
+  animation: fadeIn 1s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.ReviewRatingStars{
+  transition: all 0.6s ease-in-out;
+}
+
+.ReviewRatingDropDownArrow{
+  transition: all 0.6s ease-in-out;
+}
+
+.selectedArrow{
+  transform: rotate(180deg)
+}
+
+
+/* ----------------- */
+.dropdownRatingMenu {
+  width: 365px;
+  background: #FFFFFF;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 4px;
+
+  position: absolute;
+  /* margin-top: 166px; */
+}
+
+.optionData {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.ratingOptionName {
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #00696A;
+}
+
+
+@media only screen and (max-width: 630px) {
+  /* .dropdownRatingMenu {
+      margin-top: 150px;
+  } */
+}
+
+@media only screen and (max-width: 469px) {
+  .userReviewRatingDropDown {
+      padding: 15px 50px;
+  }
+  
+}
+
+@media only screen and (max-width: 380px) {
+  .userReviewRatingDropDown {
+      width: 80vw;
+      gap: 10px;
+      padding-top: 15px;
+      padding-bottom: 15px;overflow: auto;
+  }
+  .dropdownRatingMenu{width: 80vw; overflow: auto;}
+}
+
+/* @media only screen and (max-width: 325px) {
+  .dropdownRatingMenu {
+      margin-top: 136px;
+  }
+  .userReviewRatingDropDown {
+      padding: 15px 20px;
+  }
+  .userReviewRatingDropDownText,.ratingOptionName {
+      display: none;
+  }
+
+} */
+
+@media screen and (max-width: 430px) {
+  .profile-image {
+    width: 85px;
+    height: 85px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .ProfileForm,
+  .ProfileForm-dark {
+    width: 80%;
+    padding: 30px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .profileButtons {
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+  .upload-btn-text {
+    display: none;
+  }
+
+  .ProfileForm,
+  .ProfileForm-dark {
+    width: 95%;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 295px) {
+  .ProfileForm,
+  .ProfileForm-dark {
+    width: 100%;
+    padding: 0;
+    border-radius: 10px;
+  }
+}
+.profile-icon {
+  cursor: pointer;
+}

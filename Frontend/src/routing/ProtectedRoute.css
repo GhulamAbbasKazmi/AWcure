@@ -1,0 +1,11 @@
+.Protected-Route-Main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80%;
+  width: 90%;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  flex-direction: column;
+}
